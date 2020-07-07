@@ -18,20 +18,34 @@ body{
     color: yellow;
     vertical-align: 10px;
     font-weight: 600;
-    outline-color: rgb(36, 17, 209);
-    outline-width: 100px;
 
+}
+
+.jumbotron{
+  background-color: rgb(12, 46, 141);
+}
+
+
+/* Add a black background color to the top navigation */
+.backround{
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar-dark{
+  text-align: center;
+  padding: 14px 45px;
+  text-decoration: none;
+  font-size: 22px;
 }
 
 
 
-/* Add a black background color to the top navigation */
-.topnav {
+/*.topnav {
     background-color: rgb(0, 0, 0);
     overflow: hidden;
   }
   
-/* Style the links inside the navigation bar */
+/* Style the links inside the navigation bar 
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -40,19 +54,19 @@ body{
   text-decoration: none;
   font-size: 22px;
 }
-  
-/* Change the color of li nks on hover */
+  */
+/* Change the color of li nks on hover 
 .topnav a:hover {
   background-color: rgb(36, 17, 209);
   color: black;
 }
-  
-/* Add a color to the active/current link */
+  */
+/* Add a color to the active/current link 
 .topnav a.active {
   background-color: #d8db29;
   color: white;
 }
-
+*/
 
 * {box-sizing: content-box;}
 
