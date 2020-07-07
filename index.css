@@ -5,18 +5,24 @@ body{
 }
 .logo{
     width: 70px;
+    color: yellow;
 }
 .run{
     width: 70px;
 }
-.title{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.display-4{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: .7in;
+    font-size: .6in;
     color: yellow;
     vertical-align: 10px;
-    
+    font-weight: 600;
+    outline-color: rgb(36, 17, 209);
+    outline-width: 100px;
+
 }
+
 
 
 /* Add a black background color to the top navigation */
